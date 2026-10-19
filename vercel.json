@@ -1,13 +1,8 @@
 {
+  "framework": null,
+  "buildCommand": "exit 0",
+  "installCommand": "exit 0",
+  "outputDirectory": ".",
   "cleanUrls": true,
-  "rewrites": [
-    { "source": "/app", "destination": "/app.html" },
-    { "source": "/docs", "destination": "/docs.html" },
-    { "source": "/security", "destination": "/security.html" },
-    { "source": "/api", "destination": "/api.html" },
-    { "source": "/compliance", "destination": "/compliance.html" },
-    { "source": "/launch", "destination": "/launch.html" },
-    { "source": "/privacy", "destination": "/privacy.html" },
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
+  "trailingSlash": false
 }
